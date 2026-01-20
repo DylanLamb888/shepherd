@@ -28,7 +28,7 @@ def get_files_info(working_directory, directory="."):
 
 schema_get_files_info = types.FunctionDeclaration(
     name="get_files_info",
-    description="Lists files in a specified directory relative to the working directory",
+    description="Lists files and directories in a specified directory. Use this to see what files exist, not to execute them.",
     parameters=types.Schema(
         type=types.Type.OBJECT,
         properties={
